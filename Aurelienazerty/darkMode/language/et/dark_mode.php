@@ -6,6 +6,7 @@
  * @copyright (c) 2013 phpBB Limited <https://www.phpbb.com>
  * @license GNU General Public License, version 2 (GPL-2.0)
  *
+ * Estonian translation by phpBBestonia.eu <https://www.phpbbestonia.eu> [Exabot @ 2019]
  */
 
 /**
@@ -34,6 +35,6 @@ if (empty($lang) || !is_array($lang))
 // in a url you again do not need to specify an order e.g., 'Click %sHERE%s' is fine
 
 $lang = array_merge($lang, array(
-	'DO_DARK_MODE'			=> 'Dark mode',
-	'DO_LIGHT_MODE'			=> 'Light mode',
+	'DO_DARK_MODE'			=> 'Tume režiim',
+	'DO_LIGHT_MODE'			=> 'Hele režiim',
 ));
